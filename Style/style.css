@@ -1,3 +1,55 @@
-h1{
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.mulish {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+}
+.width{
+    max-width: 1170px;
+    margin: 50px auto;
+}
+.yellow{
+    color: #FF5400;
+ }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+.navbar .home {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+} 
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.li-item a{
+    font-weight: normal;
+}
+
+/*{ banner section  }*/
