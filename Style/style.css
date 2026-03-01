@@ -84,7 +84,7 @@ nav>div{
     margin-right: auto;
     margin-bottom: 3rem;
 }
-form {
+.banner form {
     max-width: 75%;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 8px;
@@ -260,8 +260,12 @@ form >select {
     width: 100%;
     
 }
-i {
+.hotel-view i {
     font-size: 4rem;
+    color: #ff55009c;
+}
+.discount i {
+    color: #FF5400;
 }
 .hotel-view p {
     font-size: 1rem;
@@ -275,4 +279,419 @@ i {
     font-weight: 800;
     color: #131318;
     margin-top: 32px;
+}
+/* discount section */
+
+
+.deal-card {
+    max-width: 579px;
+    min-height: 389px;
+    background: rgba(255, 255, 255, 0.622);
+    border-radius: 16px;
+    padding: 50px;
+    
+
+}
+.deals,
+.deals-one {
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    margin: 50px auto;
+    max-width: 1170px;
+}
+.deals {
+    background-image:url(/Images/Group\ 39.png);
+    padding: 56px;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.deals-one {
+    background-image:url(../Images/Group\ 40.png); 
+    padding: 56px;
+    border-radius: 16px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.deals {
+    justify-content: flex-end;
+}
+
+.deals-one {
+    justify-content: flex-start;
+}
+.deal-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+    gap: 24px;
+    font-size: 1.1rem;
+    color: #5A5A5D;
+}
+.deals h3 ,.deals-one h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 16px;
+}
+.deals p, .deals-one p {
+    font-size: 1rem;
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FF5400;
+    margin-bottom: 24px;
+    margin-top: 16px;
+    display: block;  
+    
+}
+.deal-nav i {
+    margin-right: 8px;
+    color: #FF5400;
+}
+.progreess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+/*place section*/
+.place-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+.place-text h1 {
+    font-size: 2.7rem;
+    font-weight: 800;
+    color: #131318;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+.place-text p {
+    font-size: 1rem;
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+}
+.place-text ul {
+    font-size: 1rem;
+    color: #131318;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.place-text ul li {
+    margin-bottom: 16px;
+}
+.place-img h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+    margin-bottom: 16px;
+    
+}
+.place-img {
+    position: relative;
+    max-width: 600px;
+}
+.place-img img {
+    max-width: 610px;
+    display: block;
+    border-radius: 16px;
+}
+.place-img h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 26px;
+    width: 80%;
+}
+.place-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+
+.place-down .from {
+    max-width: 474px;
+    min-height: 422px;
+    border: 1px solid #FF5400;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+
+.place-down .from h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 16px;
+}
+
+
+.place-down .from p {
+    font-size: 1rem;
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+
+.place-down .from form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.place-down .from input {
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    background: #f3f3f3;
+    width: 100%;
+    box-sizing: border-box;
+}
+.place-down .from .btn {
+    width: 100%;
+}
+
+.pd-img {
+    position: relative;
+    max-width: 672px;
+}
+
+.pd-img img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+}
+
+.discount-badge {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    background: #FF5400;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    transform: rotate(-20deg);
+    text-align: center;
+}
+
+.discount-badge p {
+    font-size: 1.5rem;
+}
+
+.discount-badge h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer {
+    max-width: 1440px;
+        margin: 0 auto;
+    background: #f3f3f3;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.footer-logo h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer-text {
+    max-width: 600px;
+    margin: 0 auto 32px auto;
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.social-icons i {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #FF5400;
+}
+
+.footer hr {
+    max-width: 800px;
+    margin: 0 auto 32px auto;
+    border: 1px solid #ddd;
+}
+
+.copyright {
+    color: #5A5A5D;
+    font-size: 0.9rem;
+}
+
+/* 
+   MOBILE RESPONSIVE
+ */
+
+@media screen and (max-width: 576px) {
+
+    .width {
+        margin: 20px auto;
+        padding: 0 16px;
+    }
+
+    /* Navbar */
+    .navbar ul {
+        display: none;
+        /* simple mobile version */
+    }
+
+    .navbar h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Banner */
+    .banner {
+        min-height: 400px;
+        margin: 20px auto;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .banner form {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .banner form input,
+    .banner form select,
+    .banner form .btn {
+        width: 100%;
+    }
+
+    /* Tour Section */
+    .tour-content {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .tour-image img {
+        width: 100%;
+    }
+
+    /* Destination Grid */
+    .destination-content {
+        grid-template-columns: 1fr;
+    }
+
+    .destination-content div {
+        grid-column: span 1 !important;
+    }
+
+    .hotel-view {
+        grid-template-columns: 1fr;
+    }
+
+    .hotel-view div {
+        grid-column: span 1 !important;
+    }
+
+ 
+    .deals,
+    .deals-one {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .deal-card {
+        padding: 20px;
+    }
+
+    .deal-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .place-sec {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .place-img img {
+        width: 100%;
+    }
+
+    .place-down {
+        flex-direction: column;
+    }
+
+    .place-down .from {
+        max-width: 100%;
+    }
+
+    .pd-img {
+        max-width: 100%;
+    }
+
+    .discount-badge {
+        bottom: 20px;
+        right: 10px;
+        padding: 12px 18px;
+        transform: rotate(-15deg);
+    }
+
+    .discount-badge h3 {
+        font-size: 1.2rem;
+    }
+
+    .discount-badge p {
+        font-size: 1rem;
+    }
+
+    .footer {
+        padding: 60px 20px;
+    }
+
+    .footer-text {
+        padding: 0 16px;
+    }
+
 }
